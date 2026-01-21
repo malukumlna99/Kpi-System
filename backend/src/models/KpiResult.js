@@ -1,4 +1,6 @@
-// KPI Result Model (Aggregated)
+const { DataTypes } = require('sequelize');
+const { sequelize } = require('../config/database');
+
 const KpiResult = sequelize.define('kpi_results', {
   id: {
     type: DataTypes.INTEGER,
@@ -62,6 +64,12 @@ const KpiResult = sequelize.define('kpi_results', {
       result.updated_at = new Date();
     },
   },
+  indexes: [
+    {
+      fields: ['user_id', 'kpi_id', 'periode'],
+      unique: true,
+    },
+  ],
 });
 
-module.exports = { KpiAnswer, KpiResult };
+module.exports = KpiResult;
