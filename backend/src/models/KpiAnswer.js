@@ -1,7 +1,6 @@
 const { DataTypes } = require('sequelize');
 const { sequelize } = require('../config/database');
 
-// KPI Answer Model
 const KpiAnswer = sequelize.define('kpi_answers', {
   id: {
     type: DataTypes.INTEGER,
@@ -42,3 +41,5 @@ const KpiAnswer = sequelize.define('kpi_answers', {
   underscored: true,
   updatedAt: false,
 });
+
+module.exports = KpiAnswer;
