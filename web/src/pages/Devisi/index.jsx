@@ -1,4 +1,3 @@
-// ==================== web/src/pages/Devisi/index.jsx ====================
 import React, { useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { Plus, Edit, Trash2 } from 'lucide-react';
@@ -124,3 +123,4 @@ const DevisiPage = () => {
 };
 
 export default DevisiPage;
+
