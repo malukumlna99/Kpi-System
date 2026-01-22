@@ -1,4 +1,3 @@
-// ==================== web/src/utils/helpers.js ====================
 import { format } from 'date-fns';
 import { id } from 'date-fns/locale';
 
@@ -136,3 +135,4 @@ export const isValidEmail = (email) => {
 export const cn = (...classes) => {
   return classes.filter(Boolean).join(' ');
 };
+
