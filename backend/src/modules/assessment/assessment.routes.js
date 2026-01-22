@@ -1,4 +1,4 @@
-// ============= assessment.routes.js =============
+
 const express = require('express');
 const router = express.Router();
 const assessmentController = require('./assessment.controller');
@@ -30,5 +30,6 @@ router.get('/:id', assessmentController.getDetail);
 
 // Manager routes
 router.post('/:id/review', authorize('manager'), reviewValidation, validate, assessmentController.review);
+
 
 module.exports = router;
