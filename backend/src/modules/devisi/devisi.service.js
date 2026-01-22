@@ -1,4 +1,4 @@
-// ============= devisi.service.js =============
+
 const { Devisi, User, Kpi } = require('../../models');
 const { Op } = require('sequelize');
 const logger = require('../../utils/logger');
@@ -155,5 +155,6 @@ class DevisiService {
     }
   }
 }
+
 
 module.exports = new DevisiService();
