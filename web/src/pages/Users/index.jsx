@@ -1,4 +1,3 @@
-// ==================== web/src/pages/Users/index.jsx ====================
 import React, { useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { Plus, Edit, Trash2 } from 'lucide-react';
@@ -41,3 +40,4 @@ const UsersPage = () => {
 };
 
 export default UsersPage;
+
