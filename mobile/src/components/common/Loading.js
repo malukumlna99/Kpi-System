@@ -1,4 +1,3 @@
-// ==================== mobile/src/components/common/Loading.js ====================
 import React from 'react';
 import { View, ActivityIndicator, Text, StyleSheet } from 'react-native';
 
@@ -46,3 +45,4 @@ const styles = StyleSheet.create({
 });
 
 export default Loading;
+
