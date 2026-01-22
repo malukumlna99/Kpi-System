@@ -1,4 +1,3 @@
-// ==================== web/src/components/common/Select.jsx ====================
 import React from 'react';
 import { cn } from '../../utils/helpers';
 
@@ -42,3 +41,4 @@ const Select = ({
 };
 
 export default Select;
+
