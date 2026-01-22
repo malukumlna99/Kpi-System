@@ -1,4 +1,4 @@
-// ============= devisi.routes.js =============
+
 const express = require('express');
 const router = express.Router();
 const devisiController = require('./devisi.controller');
@@ -18,5 +18,6 @@ router.get('/:id', devisiController.getById);
 router.post('/', devisiValidation, validate, devisiController.create);
 router.put('/:id', devisiValidation, validate, devisiController.update);
 router.delete('/:id', devisiController.delete);
+
 
 module.exports = router;
