@@ -1,4 +1,3 @@
-// ==================== web/src/components/Layout/Navbar.jsx ====================
 import React from 'react';
 import { Bell, LogOut, User } from 'lucide-react';
 import useAuthStore from '../../store/authStore';
@@ -55,3 +54,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
