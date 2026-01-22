@@ -1,4 +1,3 @@
-// ==================== web/src/components/common/Modal.jsx ====================
 import React, { useEffect } from 'react';
 import { X } from 'lucide-react';
 import Button from './Button';
@@ -71,3 +70,4 @@ const Modal = ({
 };
 
 export default Modal;
+
