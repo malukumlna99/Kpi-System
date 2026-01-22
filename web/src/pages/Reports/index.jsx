@@ -1,4 +1,3 @@
-// ==================== web/src/pages/Reports/index.jsx ====================
 import React from 'react';
 import { useQuery } from 'react-query';
 import { BarChart3, Users, TrendingUp } from 'lucide-react';
@@ -36,3 +35,4 @@ const ReportsPage = () => {
 };
 
 export default ReportsPage;
+
