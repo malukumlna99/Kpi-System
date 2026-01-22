@@ -1,4 +1,3 @@
-// ==================== mobile/src/navigation/MainNavigator.js ====================
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -111,3 +110,4 @@ const MainNavigator = () => {
 };
 
 export default MainNavigator;
+
