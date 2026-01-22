@@ -1,4 +1,3 @@
-// ==================== mobile/src/screens/HistoryScreen.js ====================
 import React, { useState, useEffect } from 'react';
 import {
   View,
@@ -118,3 +117,4 @@ const styles = StyleSheet.create({
 });
 
 export default HistoryScreen;
+
