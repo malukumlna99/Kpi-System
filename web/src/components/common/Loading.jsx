@@ -1,4 +1,3 @@
-// ==================== web/src/components/common/Loading.jsx ====================
 import React from 'react';
 
 const Loading = ({ fullScreen = false, message = 'Loading...' }) => {
@@ -22,3 +21,4 @@ const Loading = ({ fullScreen = false, message = 'Loading...' }) => {
 };
 
 export default Loading;
+
