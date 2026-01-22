@@ -1,4 +1,3 @@
-// ==================== mobile/src/screens/ProfileScreen.js ====================
 import React from 'react';
 import {
   View,
@@ -251,3 +250,4 @@ const styles = StyleSheet.create({
 });
 
 export default ProfileScreen;
+
