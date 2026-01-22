@@ -1,4 +1,3 @@
-// ==================== web/src/components/Layout/Sidebar.jsx ====================
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { 
@@ -98,3 +97,4 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
+
