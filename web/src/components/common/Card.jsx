@@ -1,4 +1,3 @@
-// ==================== web/src/components/common/Card.jsx ====================
 import React from 'react';
 import { cn } from '../../utils/helpers';
 
@@ -18,3 +17,4 @@ const Card = ({ children, className, hoverable = false, ...props }) => {
 };
 
 export default Card;
+
