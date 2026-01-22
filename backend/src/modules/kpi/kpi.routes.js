@@ -1,4 +1,4 @@
-// ============= kpi.routes.js =============
+
 const express = require('express');
 const router = express.Router();
 const kpiController = require('./kpi.controller');
@@ -32,5 +32,6 @@ router.get('/:id', authorize('manager'), kpiController.getById);
 router.post('/', authorize('manager'), kpiValidation, validate, kpiController.create);
 router.put('/:id', authorize('manager'), kpiValidation, validate, kpiController.update);
 router.delete('/:id', authorize('manager'), kpiController.delete);
+
 
 module.exports = router;
