@@ -1,4 +1,3 @@
-// ==================== mobile/src/components/common/Input.js ====================
 import React, { useState } from 'react';
 import { View, TextInput, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -128,3 +127,4 @@ const styles = StyleSheet.create({
 });
 
 export default Input;
+
