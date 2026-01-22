@@ -1,4 +1,3 @@
-// ==================== web/src/pages/Login.jsx ====================
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import useAuthStore from '../store/authStore';
@@ -142,3 +141,4 @@ const Login = () => {
 };
 
 export default Login;
+
