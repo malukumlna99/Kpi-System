@@ -1,4 +1,3 @@
-// ==================== mobile/src/components/custom/QuestionInput.js ====================
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { TextInput } from 'react-native-paper';
@@ -141,3 +140,4 @@ const styles = StyleSheet.create({
 });
 
 export default QuestionInput;
+
