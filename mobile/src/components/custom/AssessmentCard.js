@@ -1,4 +1,3 @@
-// ==================== mobile/src/components/custom/AssessmentCard.js ====================
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { format } from 'date-fns';
@@ -133,3 +132,4 @@ const styles = StyleSheet.create({
 });
 
 export default AssessmentCard;
+
