@@ -1,4 +1,3 @@
-// ==================== mobile/src/components/common/Button.js ====================
 import React from 'react';
 import { TouchableOpacity, Text, StyleSheet, ActivityIndicator } from 'react-native';
 
@@ -77,3 +76,4 @@ const styles = StyleSheet.create({
 });
 
 export default Button;
+
