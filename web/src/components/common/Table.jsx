@@ -1,4 +1,3 @@
-// ==================== web/src/components/common/Table.jsx ====================
 import React from 'react';
 import { cn } from '../../utils/helpers';
 
@@ -57,3 +56,4 @@ const Table = ({ columns, data, loading, emptyMessage = 'No data available' }) =
 };
 
 export default Table;
+
