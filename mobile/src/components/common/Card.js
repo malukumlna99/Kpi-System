@@ -1,4 +1,3 @@
-// ==================== mobile/src/components/common/Card.js ====================
 import React from 'react';
 import { View, StyleSheet, TouchableOpacity } from 'react-native';
 
@@ -34,3 +33,4 @@ const styles = StyleSheet.create({
 });
 
 export default Card;
+
