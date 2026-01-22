@@ -1,4 +1,3 @@
-// ==================== web/src/components/common/Badge.jsx ====================
 import React from 'react';
 import { cn } from '../../utils/helpers';
 
@@ -25,3 +24,4 @@ const Badge = ({ children, variant = 'default', className }) => {
 };
 
 export default Badge;
+
