@@ -1,4 +1,3 @@
-// ==================== web/src/pages/KPI/index.jsx ====================
 import React, { useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { Plus, Edit, Trash2, Eye } from 'lucide-react';
@@ -55,3 +54,4 @@ const KPIPage = () => {
 };
 
 export default KPIPage;
+
