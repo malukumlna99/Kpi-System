@@ -1,4 +1,3 @@
-// ==================== web/src/components/common/StatCard.jsx ====================
 import React from 'react';
 import Card from './Card';
 
@@ -32,3 +31,4 @@ const StatCard = ({ icon: Icon, label, value, trend, trendValue, color = 'blue' 
 };
 
 export default StatCard;
+
