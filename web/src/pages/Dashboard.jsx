@@ -1,4 +1,3 @@
-// ==================== web/src/pages/Dashboard.jsx ====================
 import React from 'react';
 import { useQuery } from 'react-query';
 import { Users, ClipboardList, CheckCircle, TrendingUp } from 'lucide-react';
@@ -186,3 +185,4 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
