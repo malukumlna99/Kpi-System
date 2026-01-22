@@ -1,4 +1,4 @@
-// ============= kpi.controller.js =============
+
 const kpiService = require('./kpi.service');
 const { successResponse, errorResponse } = require('../../utils/response');
 
@@ -94,3 +94,4 @@ class KpiController {
 }
 
 module.exports = new KpiController();
+
